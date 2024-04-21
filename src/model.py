@@ -8,10 +8,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import GaussianNB
 
 # Load training data
-train_data = pd.read_csv('diabetes_data.csv')
+train_data = pd.read_csv('C:/Users/roeyy/OneDrive/Desktop/ML-Training/dataset/diabetes_data.csv')
 
 # Convert last column to integer labels using LabelEncoder
 label_encoder = LabelEncoder()
@@ -42,12 +41,11 @@ X_test_scaled = scaler.transform(X_test)
 
 # Initialize classifiers
 classifiers = {
-    'KNN': KNeighborsClassifier(),
+    'KNN': KNeighborsClassifier(n_neighbors=3),
     'Decision Tree': DecisionTreeClassifier(),
     'Random Forest': RandomForestClassifier(),
     'SVM': SVC(),
     'Logistic Regression': LogisticRegression(),  # Add LogisticRegression
-    'nb_classifier': GaussianNB(),
 }
 
 # Train classifiers and calculate accuracies
@@ -58,20 +56,18 @@ for name, clf in classifiers.items():
     accuracy = accuracy_score(y_test, y_pred)
     accuracies[name] = accuracy
     print(f"{name}:{accuracies[name]}")
-    
-    if accuracies[name]>=0.83:
 
-        # Plot accuracies
-        plt.figure(figsize=(12, 6))
-        bars = plt.bar(accuracies.keys(), accuracies.values(), color=['blue', 'green', 'red', 'orange', 'purple'])
-        plt.xlabel('Classifier')
-        plt.ylabel('Accuracy')
-        plt.title('Accuracy Comparison of Different Classifiers')
-        plt.ylim(0, 1.5)
+# Plot accuracies
+plt.figure(figsize=(12, 6))
+bars = plt.bar(accuracies.keys(), accuracies.values(), color=['blue', 'green', 'red', 'orange', 'purple'])
+plt.xlabel('Classifier')
+plt.ylabel('Accuracy')
+plt.title('Accuracy Comparison of Different Classifiers')
+plt.ylim(0, 1.5)
 
         # Add percentage labels to bars
-        for bar in bars:
-            height = bar.get_height()
-            plt.text(bar.get_x() + bar.get_width() / 2, height, f'{height:.2f}', ha='center', va='bottom')
+for bar in bars:
+    height = bar.get_height()
+    plt.text(bar.get_x() + bar.get_width() / 2, height, f'{height:.2f}', ha='center', va='bottom')
 
-        plt.show()
+plt.show()
