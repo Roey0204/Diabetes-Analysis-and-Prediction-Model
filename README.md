@@ -33,7 +33,9 @@ When dealing with predictive modeling tasks, having weak correlation coefficient
 ### Distribution Chart agains Outcome
 <img src="https://github.com/Roey0204/Diabetes-Analysis-and-Prediction-Model/blob/main/Result/distribution.png">
 
-### Colleration Matrix
+#### Comments: 
+
+### Visualization Colleration Matrix
 <img src="https://github.com/Roey0204/Diabetes-Analysis-and-Prediction-Model/blob/main/Result/pairplot.png">
 
 ### Machine Learning Model Accuracy Analysis
