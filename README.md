@@ -1,1 +1,1 @@
-# Covid19-Analysis
+# Diabetes Analysis and Prediction Model
