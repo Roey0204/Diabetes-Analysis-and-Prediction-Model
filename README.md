@@ -6,9 +6,9 @@ This project delves into the realm of machine learning using Python's pandas and
 
 With pandas, we efficiently explore and manipulate the dataset, gaining a deep understanding of the features and their relationships. This allows us to preprocess the data and prepare it for model training.
 
-Using various machine learning algorithms such as K-Nearest Neighbors, Decision Trees, Random Forests, Support Vector Machines and Logistic Regression, we delve into predictive modeling. By leveraging different input features related to diabetes risk factors like glucose levels, blood pressure, BMI, and more, we aim to predict the likelihood of a patient having diabetes.
+Using various supervised machine learning algorithms such as K-Nearest Neighbors, Decision Trees, Random Forests, Support Vector Machines and Logistic Regression, we delve into predictive modeling. By leveraging different input features related to diabetes risk factors like glucose levels, blood pressure, BMI, and more, we aim to predict the likelihood of a patient having diabetes.
 
-For more details about the algorithm:
+For more details about the supervised algorithm:
 
 1) K-Nearest Neighbors (KNN):
 - KNN is a simple, non-parametric algorithm used for classification and regression tasks.
@@ -41,6 +41,8 @@ KNN does not involve training a model; instead, it directly uses the training da
 - The algorithm models the probability that a given observation belongs to a particular class using the logistic function (sigmoid function).
 - Logistic regression estimates the coefficients of the linear decision boundary between classes, which can be interpreted as the impact of each feature on the log odds of belonging to a certain class.
 - It is a simple and interpretable algorithm that is well-suited for binary classification tasks with a linear decision boundary.
+
+<img src="https://github.com/Roey0204/Diabetes-Analysis-and-Prediction-Model/blob/main/img/Supervised%20Learning%20Algorithm.png">
   
 Through thorough analysis and experimentation, we evaluate the performance of each algorithm and select the most suitable one based on accuracy and other relevant metrics. By visualizing the results using matplotlib, we present our findings in clear and understandable charts and graphs, enabling stakeholders to grasp the insights derived from the data effortlessly.
 
