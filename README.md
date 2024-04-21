@@ -64,7 +64,7 @@ In statistical analysis, correlation coefficients measure the strength and direc
 
 When dealing with predictive modeling tasks, having weak correlation coefficients poses challenges for accurately predicting the target variable using linear models. Linear models, such as linear regression or logistic regression, rely on strong linear relationships between the input features and the target variable to make accurate predictions. With correlation coefficients below 0.6, the linear models may struggle to capture the underlying patterns and variability in the data, leading to suboptimal predictive performance.
 
-### Visualization Distribution Chart agains Outcomes
+### Distribution Chart agains Outcomes
 <img src="https://github.com/Roey0204/Diabetes-Analysis-and-Prediction-Model/blob/main/Result/distribution.png">
 
 #### Comments: 
