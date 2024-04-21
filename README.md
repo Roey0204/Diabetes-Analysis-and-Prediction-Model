@@ -14,6 +14,11 @@ Ultimately, this project serves as a testament to the power of machine learning 
 
 ### Box Plot for all input feature
 <img src="https://github.com/Roey0204/Diabetes-Analysis-and-Prediction-Model/blob/main/Result/boxplot.png">
+#### Comments:
+
+In the context of the box plot analysis, it has been observed that, apart from the variables 'Glucose' and 'SkinThickness', the distribution of the remaining features exhibits a notable presence of outliers. Outliers, in this context, refer to data points that substantially deviate from the typical range of values observed within the dataset. These outliers may stem from various factors, such as measurement errors, data recording anomalies, or genuine extreme values within the population under study.
+
+These outliers can potentially influence the performance of machine learning models, as they introduce noise and may skew the learned patterns. Consequently, utilizing such unclean data without proper treatment may lead to suboptimal model performance and inaccurate predictions. Therefore, it becomes imperative to address these outliers through appropriate data preprocessing techniques before proceeding with model training.
 
 ### Colleration study using Heatmap
 <img src="https://github.com/Roey0204/Diabetes-Analysis-and-Prediction-Model/blob/main/Result/heatmap.png">
