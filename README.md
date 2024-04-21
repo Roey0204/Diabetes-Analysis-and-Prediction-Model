@@ -64,10 +64,15 @@ In statistical analysis, correlation coefficients measure the strength and direc
 
 When dealing with predictive modeling tasks, having weak correlation coefficients poses challenges for accurately predicting the target variable using linear models. Linear models, such as linear regression or logistic regression, rely on strong linear relationships between the input features and the target variable to make accurate predictions. With correlation coefficients below 0.6, the linear models may struggle to capture the underlying patterns and variability in the data, leading to suboptimal predictive performance.
 
-### Distribution Chart agains Outcome
+### Visualization Distribution Chart agains Outcomes
 <img src="https://github.com/Roey0204/Diabetes-Analysis-and-Prediction-Model/blob/main/Result/distribution.png">
 
 #### Comments: 
+Upon examining the distribution charts, it becomes evident that the distribution of diabetes outcomes varies across different features such as glucose levels, BMI, and blood pressure values. For features like glucose, BMI, and blood pressure, the distribution appears to be either normal or right-skewed. This indicates that a substantial portion of diabetic patients tends to have higher values for these features, with a significant concentration observed around the central or higher range values.
+
+On the contrary, the distribution of the remaining features exhibits a left-skewed pattern. This suggests that the majority of non-diabetic individuals tend to have lower values for these features, with a smaller proportion exhibiting higher values.
+
+In summary, the distribution patterns provide insights into the relationship between each feature and the occurrence of diabetes. Features such as glucose, BMI, and blood pressure appear to have a notable influence on diabetes outcomes, with higher values often associated with diabetes incidence. Conversely, other features display a different distribution pattern, indicating a potentially different relationship with diabetes risk.
 
 ### Visualization Colleration Matrix
 <img src="https://github.com/Roey0204/Diabetes-Analysis-and-Prediction-Model/blob/main/Result/pairplot.png">
