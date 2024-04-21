@@ -23,6 +23,13 @@ These outliers can potentially influence the performance of machine learning mod
 ### Colleration study using Heatmap
 <img src="https://github.com/Roey0204/Diabetes-Analysis-and-Prediction-Model/blob/main/Result/heatmap.png">
 
+#### Comments: 
+Upon careful observation of the heatmap, it becomes apparent that the correlation coefficients (R-squared values) across each input feature are consistently below the threshold of 0.6. This finding suggests a relatively weak linear relationship between the input features and the target variable.
+
+In statistical analysis, correlation coefficients measure the strength and direction of the linear relationship between two variables. A correlation coefficient closer to 1 indicates a strong positive linear relationship, while a value closer to -1 indicates a strong negative linear relationship. A coefficient near 0 suggests little to no linear relationship between the variables.
+
+When dealing with predictive modeling tasks, having weak correlation coefficients poses challenges for accurately predicting the target variable using linear models. Linear models, such as linear regression or logistic regression, rely on strong linear relationships between the input features and the target variable to make accurate predictions. With correlation coefficients below 0.6, the linear models may struggle to capture the underlying patterns and variability in the data, leading to suboptimal predictive performance.
+
 ### Distribution Chart agains Outcome
 <img src="https://github.com/Roey0204/Diabetes-Analysis-and-Prediction-Model/blob/main/Result/distribution.png">
 
