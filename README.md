@@ -42,9 +42,9 @@ When dealing with predictive modeling tasks, having weak correlation coefficient
 <img src="https://github.com/Roey0204/Diabetes-Analysis-and-Prediction-Model/blob/main/Result/Model%20accuracy%20result.png">
 
 #### Comments: 
-Upon comparing the performance of various machine learning algorithms, including K-Nearest Neighbors (KNN), Decision Trees, Random Forests, Support Vector Machines (SVM), and Logistic Regression, on our dataset, we found that Logistic Regression yielded the highest accuracy. However, across all models, the average accuracy score was approximately 75%, indicating room for improvement.
+Upon comparing the performance of various machine learning algorithms, including K-Nearest Neighbors (KNN), Decision Trees, Random Forests, Support Vector Machines (SVM), and Logistic Regression, on our dataset, we found that Logistic Regression yielded the highest accuracy. However, across all models, the average accuracy score was approximately 78%, indicating room for improvement.
 
-Despite achieving a relatively high accuracy, the models still exhibited an average error rate of approximately 25%. This level of error suggests that the models may not generalize well to new data and may benefit from further refinement.
+Despite achieving a relatively high accuracy, the models still exhibited an average error rate of approximately 22%. This level of error suggests that the models may not generalize well to new data and may benefit from further refinement.
 
 Among the models tested, Logistic Regression emerged as the top performer in terms of accuracy. This indicates that the linear relationship between the input features and the target variable is well-captured by the logistic regression model. However, even with the highest accuracy, there is still a notable margin for improvement to reduce the error rate further.
 
