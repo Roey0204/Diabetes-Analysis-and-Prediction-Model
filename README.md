@@ -6,7 +6,7 @@ This project delves into the realm of machine learning using Python's pandas and
 
 With pandas, we efficiently explore and manipulate the dataset, gaining a deep understanding of the features and their relationships. This allows us to preprocess the data and prepare it for model training.
 
-Using various machine learning algorithms such as K-Nearest Neighbors, Decision Trees, Random Forests, Support Vector Machines, Logistic Regression, and Naive Bayes, we delve into predictive modeling. By leveraging different input features related to diabetes risk factors like glucose levels, blood pressure, BMI, and more, we aim to predict the likelihood of a patient having diabetes.
+Using various machine learning algorithms such as K-Nearest Neighbors, Decision Trees, Random Forests, Support Vector Machines and Logistic Regression, we delve into predictive modeling. By leveraging different input features related to diabetes risk factors like glucose levels, blood pressure, BMI, and more, we aim to predict the likelihood of a patient having diabetes.
 
 Through thorough analysis and experimentation, we evaluate the performance of each algorithm and select the most suitable one based on accuracy and other relevant metrics. By visualizing the results using matplotlib, we present our findings in clear and understandable charts and graphs, enabling stakeholders to grasp the insights derived from the data effortlessly.
 
